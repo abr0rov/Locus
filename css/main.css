@@ -1,0 +1,383 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-800 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  } 
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 1612px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-section{
+    display: flex;
+    margin-top: 99px;
+}
+
+.header-link{
+    display: flex;
+    margin-left: 250px;
+    list-style: none;
+
+}
+.header-link-item{
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-right: 50px;
+    text-decoration: none; 
+}
+
+.header-link-item-name{
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.header-last-link{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 150px;
+    text-decoration: none;
+    background-color:#58A9A5;
+    padding: 21px 87px 21px 88px;
+    border-radius: 15px;
+    color: white;
+}
+
+.intro{
+    display: flex;
+    margin-top: 147px;
+    
+}
+.intro-text{
+    font-family: 'poppins';
+    font-weight: 800;
+    margin-top: 50px;
+    font-size: 70px;
+    width: 674px;
+}
+.intro-text-item{
+    font-family: 'poppins';
+    font-weight: 400;
+    width: 743px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.intro-link{
+    display: inline-block;
+    margin-top: 71px;
+    background-color: #58A9A5;
+    padding: 21px 83px 21px 90px;
+    border-radius: 20px 20px 20px 0;
+}
+.intro-link-item{
+    font-family: 'poppins';
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.main-section {
+   
+    margin-top: 136px;
+}
+.main-text{
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 70px;
+}
+.main-text-item{ 
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+    color: #404242;
+}
+.main-section-list{
+    display: flex;
+    margin-top: 71px;
+    background-color:#CCF0E6;
+}
+.main-section-text{
+    font-family: 'poppins';
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    color: #486958;
+    text-align: center;
+    text-align: left;
+}
+.main-section-page{
+    padding: 70px 106px 89px 115px;
+}
+.main-section-link{
+    color:#486958;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    
+}   
+.main-section-item{
+    margin-top: 150px;
+    display: flex;
+}
+.main-item-text{
+    width: 487px;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 145px;
+
+}
+.main-item-texts{
+    font-family: 'poppins';
+    font-weight: 500;
+    color: #486958;
+    margin-top: 50px;
+    margin-left: 145px;
+    font-size: 30px;
+}
+.img{
+    display: block;
+    margin-top: 15px;
+   margin-left: 750px;
+}
+
+.project-text{
+font-family: 'poppins';
+font-weight: 800;
+font-size: 70px;
+text-align: center;
+margin-top: 120px;
+}
+.project-item{
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 30px;
+}
+.project-item-text{
+    font-family: 'poppins';
+    font-size: 40px;
+    color: #58A9A5;
+    margin-top: 94px;
+}
+.project-item-list{
+    font-family: 'poppins';
+    font-size: 20px;
+    color: #486958;
+    width: 453px;
+    margin-bottom: 35px;
+}
+.project-img{
+   margin-top: 109px;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+}
+.project-item-texts{
+    font-family: 'poppins';
+    font-size: 40px;
+    color: #58A9A5;
+}
+.testomonial-title{
+    font-family: 'poppins';
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 250px;
+}
+.img-section{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.testomonial-img{
+    margin-top: 96px;
+}
+.testomimonial-img{
+    margin-top: 119px;
+}
+.testomonial-last-img{
+    margin-top: 76px;
+}
+.testimonial-section{
+    display: flex;
+    margin-top: 62px;
+}
+.testimonial-information{
+    background-color: #CCF0E6;
+    padding-top: 50px;
+    padding-left: 135px;
+    padding-right: 107px;
+    padding-bottom: 119px;
+    width: 1000px;
+}
+.testimonial-text{
+    display: flex;
+    margin-bottom: 123px;
+    color: #58A9A5;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 105px;
+}
+.testimonial-times{
+    margin: 0;
+    font-weight:600px;
+    font-size:30px;
+    Line-height:45px;
+    margin-right: 117px;
+}
+.testimonial-quote{
+    color: #486958;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+.testimonial-numbers{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0;
+}
+.testimonial-quote-span{
+    color: #58A9A5;
+    display: block;
+    margin-top: 50px;
+}
+.contact-title{
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 70px;
+    margin-top: 240px;
+}
+.contact-img{
+    display: block;
+    margin-top: 15px;
+}
+.contact-text{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 25px;
+    color: #486958;
+    width: 398px;
+    margin-top: 10px;
+}
+.contact{
+    margin-bottom: 334px;
+}
+.contact-title{
+    color: #1C2323;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0;
+}
+.contact-text{
+    color: #486958;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    margin: 0;
+}
+.contact-title-wrapper{
+    position: relative;
+    margin-right: 104px;
+    
+}
+.contact-title-wrapper::after{
+    display: block;
+    content: '';
+    width: 135px;
+    border: 2px solid #58A9A5;
+    background-color: #58A9A5;
+    position: absolute;
+    top: 50%;
+}
+.contact-title-wrapper::before{
+    display: block;
+    content: '';
+    width: 135px;
+    border: 2px solid #58A9A5;
+    background-color: #58A9A5;
+    position: absolute;
+    top: 55%;
+}
+.contact-form{
+    padding: 57px 54px 56px 54px;
+    border: 1px solid #486958;
+    width: 1109px;
+    margin-left: 104px;
+}
+.contact-maindiv-wrapper{
+    display: flex;
+   margin-top: 240px;
+}
+.contact-input{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 25px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+.conntact-href{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 21px 73px;
+    background-color: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    position: absolute;
+    position: relative;
+    left: calc(100% - 210px);
+}
+.contact-last-input{
+    border: none;
+}
